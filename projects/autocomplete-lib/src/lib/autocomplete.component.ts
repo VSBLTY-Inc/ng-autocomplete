@@ -11,9 +11,9 @@ import {
   ViewChild,
   ViewEncapsulation
 } from '@angular/core';
-import {fromEvent, Observable} from 'rxjs';
-import {debounceTime, filter, map} from 'rxjs/operators';
-import {ControlValueAccessor, NG_VALUE_ACCESSOR} from '@angular/forms';
+import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { fromEvent, Observable } from 'rxjs';
+import { debounceTime, filter, map } from 'rxjs/operators';
 
 /**
  * Keyboard events
@@ -539,7 +539,7 @@ export class AutocompleteComponent implements OnInit, OnChanges, AfterViewInit, 
       .scrollHeight;
     const elementHeight = this.filteredListElement.nativeElement
       .clientHeight;
-    const atBottom = elementHeight !=0 && Math.abs(scrollHeight - elementHeight - scrollTop) < 1;
+    const atBottom = elementHeight != 0 && scrollTop > ((scrollHeight - elementHeight) * 0.95);
 
     if (atBottom) {
       this.scrolledToEnd.emit();
