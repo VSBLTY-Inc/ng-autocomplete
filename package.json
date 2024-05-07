@@ -1,7 +1,7 @@
 {
-  "name": "angular-ng-autocomplete",
-  "version": "2.0.12",
-  "description": "Angular autocomplete",
+  "name": "vm-autocomplete",
+  "version": "2.0.13",
+  "description": "Forked version of angular autocomplete",
   "keywords": [
     "angular",
     "angular-ng-autocomplete",
@@ -10,6 +10,7 @@
     "angular-auto-complete",
     "autocomplete-component",
     "ng-autocomplete",
+    "vm-autocomplete",
     "auto complete",
     "autocomplete",
     "angular-6",
@@ -44,7 +45,7 @@
     "e2e": "ng e2e",
     "postinstall": "ngcc"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^13.2.1",
     "@angular/common": "^13.2.1",

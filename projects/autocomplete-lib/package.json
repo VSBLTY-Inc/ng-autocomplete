@@ -1,7 +1,7 @@
 {
-  "name": "angular-ng-autocomplete",
-  "version": "2.0.12",
-  "description": "Angular autocomplete",
+  "name": "vsblty-ng-autocomplete",
+  "version": "2.0.13",
+  "description": "A fork of Angular autocomplete",
   "keywords": [
     "angular",
     "angular-ng-autocomplete",
@@ -10,6 +10,7 @@
     "angular-auto-complete",
     "autocomplete-component",
     "ng-autocomplete",
+    "vm-autocomplete",
     "auto complete",
     "autocomplete",
     "angular-6",
@@ -23,16 +24,16 @@
     "angular-14"
   ],
   "author": {
-    "name": "Giorgi Merabishvili",
-    "email": "gtmerabishvili@gmail.com",
-    "url": "https://www.linkedin.com/in/giorgi-merabishvili-3719a2121/"
+    "name": "Ronald Ramirez",
+    "email": "dlanorok@hotmail.com",
+    "url": "https://www.linkedin.com/in/dlanorok/"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gmerabishvili/angular-autocomplete"
+    "url": "https://github.com/vsblty-inc/ng-autocomplete"
   },
-  "homepage": "https://gmerabishvili.github.io/angular-ng-autocomplete/",
+  "homepage": "https://vsblty.net/",
   "peerDependencies": {
     "@angular/common": "*",
     "@angular/core": "*"
