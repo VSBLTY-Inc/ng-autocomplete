@@ -1,6 +1,6 @@
 {
   "name": "@vsblty/ng-autocomplete",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "A fork of Angular autocomplete",
   "keywords": [
     "vsblty",
@@ -18,7 +18,14 @@
     "angular-9",
     "angular-10",
     "angular-11",
-    "angular-12"
+    "angular-12",
+    "angular-13",
+    "angular-14",
+    "angular-15",
+    "angular-16",
+    "angular-17",
+    "angular-18",
+    "angular-19"
   ],
 
   "author": {
